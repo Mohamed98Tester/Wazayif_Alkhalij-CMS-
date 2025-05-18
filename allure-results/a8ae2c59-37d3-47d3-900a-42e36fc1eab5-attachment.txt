@@ -1,0 +1,25 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'jopApp.TC_JopAPP.CreateJopApplication'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/jopApplication.json". @18-05-2025 19:27:13.0888 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @18-05-2025 19:27:13.0890 PM
+[ReportManager] Text cleared Using Native Clear @18-05-2025 19:27:14.0020 PM
+[ReportManager] Type "admin@cms.com" into "Email Address". @18-05-2025 19:27:14.0067 PM
+[ReportManager] Text cleared Using Native Clear @18-05-2025 19:27:14.0159 PM
+[ReportManager] Type "test123" into "Password". @18-05-2025 19:27:14.0209 PM
+[ReportManager] Moved the mouse to the middle of the element. @18-05-2025 19:27:14.0391 PM
+[ReportManager] Click "SIGN IN". @18-05-2025 19:27:14.0534 PM
+[ReportManager] Moved the mouse to the middle of the element. @18-05-2025 19:27:15.0723 PM
+[ReportManager] Click "طلب وظيفة". @18-05-2025 19:27:15.0842 PM
+[ReportManager] Waiting for element to be present; elementLocator "By.cssSelector: [placeholder=Name]", isExpectedToBeVisible"false"... @18-05-2025 19:27:15.0844 PM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x0000015d3579a2e8@cec1ce2 (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"css selector","selector":"[placeholder=Name]"} @18-05-2025 19:28:15.0926 PM
+[ReportManager] Failed to Identify unique element. @18-05-2025 19:28:16.0839 PM
+[ReportManager] Successfully created attachment 'Screenshot - Identify unique element_19-28-16-811_18052025' @18-05-2025 19:28:16.0841 PM
+[ReportManager] Successfully created attachment 'Identify unique element - page snapshot' @18-05-2025 19:28:16.0843 PM
+[ReportManager] Failed to Wait to be ready "Waited for the element's state of visibility to be (false). Element locator (By.cssSelector: [placeholder=Name])". Root cause: "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[placeholder=Name]"}" @18-05-2025 19:28:17.0147 PM
+[ReportManager] Successfully created attachment 'Screenshot - Wait to be ready_19-28-17-124_18052025' @18-05-2025 19:28:17.0149 PM
+[ReportManager] Successfully created attachment 'Wait to be ready - page snapshot' @18-05-2025 19:28:17.0150 PM
+[ReportManager] Successfully created attachment 'Element Action Exception - Wait to be ready - Stacktrace' @18-05-2025 19:28:17.0151 PM
