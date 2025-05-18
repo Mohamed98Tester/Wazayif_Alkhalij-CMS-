@@ -1,0 +1,8 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @18-05-2025 09:14:13.0549 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\SHAFT ENGIN\CMS1\target\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @18-05-2025 09:14:14.0073 AM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @18-05-2025 09:14:14.0075 AM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @18-05-2025 09:14:14.0075 AM
+[ReportManager] Successfully Opened: "Windows | Chrome". @18-05-2025 09:14:16.0092 AM
+[ReportManager] Target URL: "https://www.maysanjobs.com/auth/login" @18-05-2025 09:14:16.0120 AM
+[ReportManager] Initial URL: "about:blank" @18-05-2025 09:14:16.0142 AM
+[ReportManager] Navigate to url "https://www.maysanjobs.com/auth/login". @18-05-2025 09:14:17.0084 AM

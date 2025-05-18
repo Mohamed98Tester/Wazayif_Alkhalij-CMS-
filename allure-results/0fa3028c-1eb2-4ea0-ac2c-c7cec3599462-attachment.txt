@@ -1,0 +1,12 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                         Test Method: 'TC_login.signIn'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Text cleared Using Native Clear @18-05-2025 09:14:17.0342 AM
+[ReportManager] Type "admin@cms.com" into "Email Address". @18-05-2025 09:14:17.0383 AM
+[ReportManager] Text cleared Using Native Clear @18-05-2025 09:14:17.0466 AM
+[ReportManager] Type "test123" into "Password". @18-05-2025 09:14:17.0506 AM
+[ReportManager] Moved the mouse to the middle of the element. @18-05-2025 09:14:17.0703 AM
+[ReportManager] Click "SIGN IN". @18-05-2025 09:14:17.0776 AM
