@@ -1,0 +1,10 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @19-05-2025 16:40:17.0511 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\qc\Downloads\New f..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @19-05-2025 16:40:18.0045 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @19-05-2025 16:40:18.0046 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @19-05-2025 16:40:18.0046 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @19-05-2025 16:40:20.0065 PM
+[ReportManager] Target URL: "https://www.maysanjobs.com/auth/login" @19-05-2025 16:40:20.0091 PM
+[ReportManager] Initial URL: "about:blank" @19-05-2025 16:40:20.0112 PM
+[ReportManager] Navigate to url "https://www.maysanjobs.com/auth/login". @19-05-2025 16:40:20.0897 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/jopApplication.json". @19-05-2025 16:40:20.0927 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @19-05-2025 16:40:20.0936 PM

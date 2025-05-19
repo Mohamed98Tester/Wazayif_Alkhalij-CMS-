@@ -23,7 +23,7 @@ public class TC_JopAPP extends  TC_login {
 
 
     @Test
-    public void CreateJopApplication(){
+    public void CreateJopApplication() throws InterruptedException {
 
        testData = new SHAFT.TestData.JSON("src/test/resources/testDataFiles/jopApplication.json");
 
@@ -32,22 +32,22 @@ public class TC_JopAPP extends  TC_login {
 
 
         jopApp = new P1_JopApp(driver);
-        /*
 
-       jopApp.clickOnJopApplication().writeName(testData.getTestData("Name"));
-*/
 
-        try {
+     //  jopApp.clickOnJopApplication().writeName(testData.getTestData("Name"));
+
+
+
             Thread.sleep(1000); // انتظر 1 ثانية قبل الضغط
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
-        jopApp.clickOnJopApplication();
 
-        driver.element().waitToBeInvisible(By.cssSelector("[placeholder=Name]")); // انتظر لغاية ما خانة الاسم تظهر
+        jopApp.clickOnJopApplication()
+            .writeName(testData.getTestData("Name")).choseCountry(testData.getTestData("country"))
+                .enterPhoneNumber(testData.getTestData("phonenumber"))
+                .writeEmail(testData.getTestData("mail"))
+                .choseJop(testData.getTestData("jop"));
+      //  jopApp .choseSpecialty(testData.getTestData("Specialty"));
 
-        driver.element().type(By.cssSelector("[placeholder=Name]"), testData.getTestData("Name")); // اكتب الاسم
 
 
     }
