@@ -3,7 +3,9 @@ package jopApp;
 import com.shaft.driver.SHAFT;
 import com.shaft.gui.element.ElementActions;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,11 +26,12 @@ public class P1_JopApp {
      // public final By selectJop = By.cssSelector(".css-19bb58m");
         private final By openDDL = By.cssSelector(".css-19bb58m");
 
+        private final By selectSpecialty = By.xpath("(//input[@aria-autocomplete=\"list\"])[2]");
 
 
 
       private final By Specialty = By.id("react-select-7-placeholder");
-
+        private final By uploadAttachment = By.id("file-upload-cv");
 
 
 
@@ -64,19 +67,18 @@ public class P1_JopApp {
         }
 
     public P1_JopApp choseJop(String jop) {
-        // افتح القائمة
-        driver.element().click(openDDL);
+        // افتح الـ DropDown
+        //TODO : Click on jop field for open DDL  كدا ضغطنا عليها بس لسه هنختار وهر معملوه ب react مش نافع select
+     //   driver.element().click(openDDL); مش محتاج اضغط كليك عادى
 
-        // ادخل اسم الوظيفة في حقل البحث الداخلي
-        By inputField = By.cssSelector("input[id^='react-select'][id$='-input']");
+        // اختار الـ input الداخلي
+        By inputField = By.xpath("(//input[@aria-autocomplete=\"list\"])[1]");
+
+        // اكتب اسم الوظيفة واضغط ENTER لاختيارها
+        //TODO : اعتبارته ان اكتب فيه وهكتب اسم الوظيفة هنا
         driver.element().type(inputField, jop);
-
-        // انتظر ظهور الخيار، واختاره
-        By jobOption = By.xpath(String.format("//div[contains(@class,'css-1n7v3ny-option') and contains(text(),'%s')]", jop));
-        driver.element().waitToBeReady(jobOption);
-        driver.element().select(jobOption,jop);
-        driver.element().click(By.xpath("//div[contains(@class,'css-1n7v3ny-option') and contains(text(),'%s')]"));
-
+        //TODO : بعد م كتبت اسم الوظيفة عايز اضغط هنا انتر بقي
+        driver.getDriver().findElement(inputField).sendKeys(Keys.ENTER);
 
         return this;
     }
@@ -84,14 +86,36 @@ public class P1_JopApp {
 
 
 
-
     public P1_JopApp choseSpecialty(String specialty) {
-            driver.element().select(Specialty,specialty);
+
+           driver.element().type(selectSpecialty,specialty);
+           driver.getDriver().findElement(selectSpecialty).sendKeys(Keys.ENTER);
+
             return this;
         }
 
 
 
+     /*   public P1_JopApp uploadCV (String CVPath){
+            //driver.element().click(uploadAttachment);
+            driver.element().select(uploadAttachment,CVPath);
+            return this;
+        }
+
+
+      */
+    public P1_JopApp uploadCV(String CVPath) {
+        // لاقي عنصر الرفع باستخدام WebDriver العادي من SHAFT
+        WebElement uploadElement = driver.getDriver().findElement(uploadAttachment);
+
+        // لو العنصر مخفي، خليه ظاهر عشان نقدر نستخدم sendKeys
+        ((JavascriptExecutor) driver.getDriver()).executeScript("arguments[0].style.display = 'block';", uploadElement);
+
+        // ابعت الملف مباشرة باستخدام sendKeys
+        uploadElement.sendKeys(CVPath);
+
+        return this;
+    }
 
 
 

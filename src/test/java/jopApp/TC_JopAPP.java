@@ -45,8 +45,8 @@ public class TC_JopAPP extends  TC_login {
             .writeName(testData.getTestData("Name")).choseCountry(testData.getTestData("country"))
                 .enterPhoneNumber(testData.getTestData("phonenumber"))
                 .writeEmail(testData.getTestData("mail"))
-                .choseJop(testData.getTestData("jop"));
-      //  jopApp .choseSpecialty(testData.getTestData("Specialty"));
+                .choseJop(testData.getTestData("jop"))
+       .choseSpecialty(testData.getTestData("Specialty")).uploadCV(testData.getTestData("CV_path"));
 
 
 
