@@ -1,0 +1,89 @@
+[INFO ] 2025-05-22 08:46:30.140 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240624[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-22 08:46:30.156 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-05-22 08:46:30.188 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-05-22 08:46:30.193 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-05-22 08:46:30.214 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-05-22 08:46:30.660 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                            'jopApp.TC_JopAPP.setup'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-22 08:46:30.810 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-05-22 08:46:31.363 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\SHAFT ENGIN\CMS1\target\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-05-22 08:46:31.364 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-05-22 08:46:31.364 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2025-05-22 08:46:31.443 [] ReportManager - Loaded OpenCV "opencv_java490".
+[WARN ] 2025-05-22 08:46:35.854 [main] ReportManager - May 22, 2025 8:46:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-05-22 08:46:35.854 [main] ReportManager - WARNING: Unable to find CDP implementation matching 136
+[WARN ] 2025-05-22 08:46:35.856 [main] ReportManager - May 22, 2025 8:46:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2025-05-22 08:46:35.856 [main] ReportManager - WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-05-22 08:46:35.860 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-05-22 08:46:35.889 [main] ReportManager - Target URL: "https://www.maysanjobs.com/auth/login"
+[INFO ] 2025-05-22 08:46:35.916 [main] ReportManager - Initial URL: "about:blank"
+[WARN ] 2025-05-22 08:46:35.969 [] ReportManager - ⚠️ You're using an outdated engine version "8.2.20240624" ⚠️
+Kindly upgrade to the latest one "9.2.20250409" to ensure the best experience.
+For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .
+[INFO ] 2025-05-22 08:46:37.948 [main] ReportManager - Navigate to url "https://www.maysanjobs.com/auth/login".
+[INFO ] 2025-05-22 08:46:37.982 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/jopApplication.json".
+[INFO ] 2025-05-22 08:46:37.993 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-05-22 08:46:38.003 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2025-05-22 08:46:38.029 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-22 08:46:38.031 [main] ReportManager - Initializing Important Links...
+[INFO ] 2025-05-22 08:46:38.035 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-05-22 08:46:38.123 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'jopApp.TC_JopAPP.CreateJopApplication'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-22 08:46:38.125 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/jopApplication.json".
+[INFO ] 2025-05-22 08:46:38.126 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-05-22 08:46:38.300 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-05-22 08:46:38.353 [main] ReportManager - Type "admin@cms.com" into "Email Address".
+[DEBUG] 2025-05-22 08:46:38.433 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-05-22 08:46:38.478 [main] ReportManager - Type "test123" into "Password".
+[INFO ] 2025-05-22 08:46:38.649 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-05-22 08:46:38.734 [main] ReportManager - Click "SIGN IN".
+[INFO ] 2025-05-22 08:46:39.969 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-05-22 08:46:40.016 [main] ReportManager - Click "طلب وظيفة".
+[DEBUG] 2025-05-22 08:46:41.248 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-05-22 08:46:41.305 [main] ReportManager - Type "Mohamed" into "الاسم".
+[INFO ] 2025-05-22 08:46:41.789 [main] ReportManager - Select "Egypt" from "Phone number country".
+[INFO ] 2025-05-22 08:46:41.944 [main] ReportManager - Type append "01552352610" into "By.cssSelector: [type="tel"]".
+[DEBUG] 2025-05-22 08:46:42.036 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-05-22 08:46:42.089 [main] ReportManager - Type "17mohamed.ahmed1998@gmail.com" into "عنوان البريد".
+[DEBUG] 2025-05-22 08:46:42.172 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-05-22 08:46:42.229 [main] ReportManager - Type "هندسة" into "By.xpath: (//input[@aria-autocomplete="list"])[1]".
+[INFO ] 2025-05-22 08:46:43.020 [main] ReportManager - Type "" into element.
+[DEBUG] 2025-05-22 08:46:43.472 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-05-22 08:46:43.518 [main] ReportManager - Type "كهربا" into "By.xpath: (//input[@aria-autocomplete="list"])[2]".
+[INFO ] 2025-05-22 08:46:43.585 [main] ReportManager - Type "" into element.
+[INFO ] 2025-05-22 08:46:43.755 [main] ReportManager - Type "C:\Users\qc\Desktop\pdf-test.pdf" into "Choose File".
+[INFO ] 2025-05-22 08:46:44.486 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-05-22 08:46:44.573 [main] ReportManager - Click "By.cssSelector: [data-testid="ArrowRightAltIcon"]".
+[INFO ] 2025-05-22 08:46:44.735 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-05-22 08:46:44.789 [main] ReportManager - Click "تقديم الطلب".
+[INFO ] 2025-05-22 08:46:44.795 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CreateJopApplication'
+[INFO ] 2025-05-22 08:46:44.795 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'jopApp.TC_JopAPP.CreateJopApplication'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-22 08:46:44.888 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-22 08:46:44.890 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

@@ -1,0 +1,33 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'jopApp.TC_JopAPP.CreateJopApplication'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/jopApplication.json". @22-05-2025 08:46:38.0125 AM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @22-05-2025 08:46:38.0126 AM
+[ReportManager] Text cleared Using Native Clear @22-05-2025 08:46:38.0300 AM
+[ReportManager] Type "admin@cms.com" into "Email Address". @22-05-2025 08:46:38.0353 AM
+[ReportManager] Text cleared Using Native Clear @22-05-2025 08:46:38.0433 AM
+[ReportManager] Type "test123" into "Password". @22-05-2025 08:46:38.0478 AM
+[ReportManager] Moved the mouse to the middle of the element. @22-05-2025 08:46:38.0648 AM
+[ReportManager] Click "SIGN IN". @22-05-2025 08:46:38.0734 AM
+[ReportManager] Moved the mouse to the middle of the element. @22-05-2025 08:46:39.0968 AM
+[ReportManager] Click "طلب وظيفة". @22-05-2025 08:46:40.0016 AM
+[ReportManager] Text cleared Using Native Clear @22-05-2025 08:46:41.0248 AM
+[ReportManager] Type "Mohamed" into "الاسم". @22-05-2025 08:46:41.0305 AM
+[ReportManager] Select "Egypt" from "Phone number country". @22-05-2025 08:46:41.0789 AM
+[ReportManager] Type append "01552352610" into "By.cssSelector: [type="tel"]". @22-05-2025 08:46:41.0944 AM
+[ReportManager] Text cleared Using Native Clear @22-05-2025 08:46:42.0035 AM
+[ReportManager] Type "17mohamed.ahmed1998@gmail.com" into "عنوان البريد". @22-05-2025 08:46:42.0089 AM
+[ReportManager] Text cleared Using Native Clear @22-05-2025 08:46:42.0172 AM
+[ReportManager] Type "هندسة" into "By.xpath: (//input[@aria-autocomplete="list"])[1]". @22-05-2025 08:46:42.0228 AM
+[ReportManager] Type "" into element. @22-05-2025 08:46:43.0020 AM
+[ReportManager] Text cleared Using Native Clear @22-05-2025 08:46:43.0472 AM
+[ReportManager] Type "كهربا" into "By.xpath: (//input[@aria-autocomplete="list"])[2]". @22-05-2025 08:46:43.0518 AM
+[ReportManager] Type "" into element. @22-05-2025 08:46:43.0585 AM
+[ReportManager] Type "C:\Users\qc\Desktop\pdf-test.pdf" into "Choose File". @22-05-2025 08:46:43.0755 AM
+[ReportManager] Moved the mouse to the middle of the element. @22-05-2025 08:46:44.0486 AM
+[ReportManager] Click "By.cssSelector: [data-testid="ArrowRightAltIcon"]". @22-05-2025 08:46:44.0572 AM
+[ReportManager] Moved the mouse to the middle of the element. @22-05-2025 08:46:44.0735 AM
+[ReportManager] Click "تقديم الطلب". @22-05-2025 08:46:44.0789 AM

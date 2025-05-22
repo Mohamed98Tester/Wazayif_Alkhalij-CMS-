@@ -1,6 +1,7 @@
 package login;
 
-import Login.login;
+import Login.Login;
+//import Login.login;
 import com.shaft.driver.DriverFactory;
 import com.shaft.driver.SHAFT;
 import jopApp.P1_JopApp;
@@ -9,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class TC_login {
 
-    protected login   login;
+    protected Login   login;
    protected P1_JopApp jopApp ;
 
    protected SHAFT.GUI.WebDriver driver ;
@@ -22,10 +23,10 @@ public class TC_login {
 
         driver = new SHAFT.GUI.WebDriver(DriverFactory.DriverType.CHROME);
         driver.browser().navigateToURL("https://www.maysanjobs.com/auth/login");
-        login = new login(driver); // هذا السطر ضروري قبل استخدام الكائن
+        login = new Login(driver); // هذا السطر ضروري قبل استخدام الكائن
 
              testData =new SHAFT.TestData.JSON("src/test/resources/testDataFiles/jopApplication.json");
-            login = new login(driver);
+            login = new Login(driver);
         jopApp = new P1_JopApp(driver);
     }
 

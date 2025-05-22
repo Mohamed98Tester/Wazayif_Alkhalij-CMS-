@@ -3,9 +3,9 @@ package Login;
 import com.shaft.driver.SHAFT;
 import org.openqa.selenium.By;
 
-public class login {
+public class Login {
     SHAFT.GUI.WebDriver driver ;
-    public login (SHAFT.GUI.WebDriver driver){
+    public Login (SHAFT.GUI.WebDriver driver){
 this.driver=driver;
     }
 private final By userName  =By.id("email");
@@ -17,17 +17,17 @@ private final By userName  =By.id("email");
 
 
 
-        public login enterUserName (){
+        public Login enterUserName (){
             driver.element().type(userName,"admin@cms.com");
             return this;
         }
 
-    public login enterPassword (){
+    public Login enterPassword (){
             driver.element().type(password,"test123");
             return this;
     }
 
-        public login clickOnSignin  (){
+        public Login clickOnSignin  (){
             driver.element().click(signINButton);
             return this;
         }
